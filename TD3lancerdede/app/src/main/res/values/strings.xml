@@ -5,4 +5,6 @@
     <string name="exercice_3">Exercice 3</string>
     <string name="r_sultat">Résultat</string>
     <string name="lancer_le_de">LANCER LE DE</string>
+    <string name="r_sultat_1">Dé 1</string>
+    <string name="r_sultat_2">Dé 2</string>
 </resources>

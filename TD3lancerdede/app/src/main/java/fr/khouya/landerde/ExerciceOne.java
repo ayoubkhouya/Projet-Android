@@ -21,7 +21,7 @@ public class ExerciceOne extends AppCompatActivity {
         btn_lancer = findViewById(R.id.exo_one_btn);
 
         btn_lancer.setOnClickListener(v -> {
-            Toast.makeText(ExerciceOne.this, "Dé lancé ...", Toast.LENGTH_LONG).show();
+            Toast.makeText(ExerciceOne.this, "Dé lancé ...", Toast.LENGTH_SHORT).show();
             int result = (int) (Math.random() * 6) + 1;
             this.txv_resultat.setText(String.valueOf(result));
         });

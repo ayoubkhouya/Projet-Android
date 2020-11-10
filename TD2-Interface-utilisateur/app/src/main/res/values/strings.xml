@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TD2 interface utilisateur</string>
+    <string name="message">Message depuis Values</string>
 </resources>

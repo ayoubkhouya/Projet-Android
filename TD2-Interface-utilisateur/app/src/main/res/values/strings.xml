@@ -4,4 +4,16 @@
     <string name="string_btn1">BTN1</string>
     <string name="btn2">BTN2</string>
     <string name="btn3">BTN3</string>
+    <string name="bonjour">Bonjour</string>
+    <string name="choisir_un_repas">Choisir un repas</string>
+    <string name="entre">Entrée</string>
+    <string name="plat_principale">Plat Principale</string>
+    <string name="fromage">Fromage</string>
+    <string name="fruit">Fruit</string>
+    <string name="coucher">Pour</string>
+    <string name="midi">Midi</string>
+    <string name="soir">Soir</string>
+    <string name="valider">Valider</string>
+    <string name="annuler">Annuler</string>
+    <string name="repas">Choisir un repas</string>
 </resources>

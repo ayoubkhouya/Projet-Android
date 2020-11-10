@@ -8,13 +8,20 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     public static final String TAG_METHOD = "Method : ";
-    public static final String TAG_FACTORIEL = "Factoriel : ";
+    public static final String TAG_FACTORIAL = "Factoriel : ";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Log.i(TAG_METHOD, "onCreate called");
+
+        int v = 54;
+        int n = v / 9 - 2;
+        Log.i("num : ", "n = " + n);
+        int f = factorielle(n);
+        Log.i(TAG_FACTORIAL, n + "! = " + f);
     }
 
     @Override
@@ -53,5 +60,14 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG_METHOD, "onDestroy called");
     }
 
-
+    private int factorielle(int n) {
+        int r;
+        if (n > 1) {
+            int fnm1 = factorielle(n-1);
+            r = n * fnm1;
+        } else {
+            r = 1;
+        }
+        return r;
+    }
 }

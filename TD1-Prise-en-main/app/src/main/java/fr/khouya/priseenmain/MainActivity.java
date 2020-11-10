@@ -7,7 +7,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String TAG_METHOD = "methods";
+    public static final String TAG_METHOD = "Method : ";
+    public static final String TAG_FACTORIEL = "Factoriel : ";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,4 +52,6 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         Log.i(TAG_METHOD, "onDestroy called");
     }
+
+
 }

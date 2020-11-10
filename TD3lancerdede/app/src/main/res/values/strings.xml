@@ -7,4 +7,5 @@
     <string name="lancer_le_de">LANCER LE DE</string>
     <string name="r_sultat_1">Dé 1</string>
     <string name="r_sultat_2">Dé 2</string>
+    <string name="nombre_de_face">Nombre de face</string>
 </resources>

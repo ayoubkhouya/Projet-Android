@@ -16,4 +16,14 @@
     <string name="valider">Valider</string>
     <string name="annuler">Annuler</string>
     <string name="repas">Choisir un repas</string>
+    <string name="meteo">Remplir météo</string>
+    <string name="date">Date</string>
+    <string name="heure">Heure</string>
+    <string name="vitesse">Vitesse du vent</string>
+    <string name="etat">Etat du ciel</string>
+    <string name="spinner">Spinner</string>
+    <string name="degage">Dégagé</string>
+    <string name="couvert">Couvert</string>
+    <string name="pluvieux">Pluvieux</string>
+    <string name="vitesskm">km</string>
 </resources>

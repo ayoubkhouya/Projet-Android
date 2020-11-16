@@ -9,4 +9,5 @@
     <string name="invalid_username">Email invalide</string>
     <string name="invalid_password">Mot de passe superieur à 5 caractères</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="login_et_ou_password_invalide">Login et/ou password invalide</string>
 </resources>

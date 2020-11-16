@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
         loginButton = findViewById(R.id.login);
         username_input = findViewById(R.id.username);
         password_input = findViewById(R.id.password);
-        error_login = findViewById(R.id.login_error);z
+        error_login = findViewById(R.id.login_error);
 
         loginButton.setOnClickListener(v -> {
             String username = String.valueOf(username_input.getText());

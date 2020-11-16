@@ -13,4 +13,6 @@
     <string name="details">Details</string>
     <string name="logout">logout</string>
     <string name="news">News</string>
+    <string name="ok">Ok</string>
+    <string name="login">LogIn</string>
 </resources>

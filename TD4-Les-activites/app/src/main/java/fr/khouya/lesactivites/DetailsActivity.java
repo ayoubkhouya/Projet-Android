@@ -21,6 +21,7 @@ public class DetailsActivity extends AppCompatActivity {
         btn_ok.setOnClickListener(v -> {
             Intent intent = new Intent(DetailsActivity.this, NewsActivity.class);
             startActivity(intent);
+            finish();
         });
 
     }
@@ -28,5 +29,6 @@ public class DetailsActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+        finish();
     }
 }

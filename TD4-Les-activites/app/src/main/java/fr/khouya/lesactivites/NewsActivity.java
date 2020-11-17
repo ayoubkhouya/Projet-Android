@@ -2,8 +2,8 @@ package fr.khouya.lesactivites;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -12,6 +12,7 @@ public class NewsActivity extends AppCompatActivity {
 
     private Button btn_details;
     private Button btn_logout;
+    private Button btn_about;
     private TextView pseudo;
 
     @Override
@@ -25,6 +26,7 @@ public class NewsActivity extends AppCompatActivity {
         // Association
         btn_details = findViewById(R.id.news_to_details);
         btn_logout = findViewById(R.id.news_to_logout);
+        btn_about = findViewById(R.id.news_to_web);
         pseudo = findViewById(R.id.news_pseudo);
 
         if (login_intent.hasExtra("pseudo")) {
@@ -44,10 +46,16 @@ public class NewsActivity extends AppCompatActivity {
             finish();
         });
 
+        btn_about.setOnClickListener(v -> {
+            String url = "https://news.google.com/";
+            Intent web = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+            startActivity(web);
+        });
+
     }
 
     @Override
     public void onBackPressed() {
-        finish();
+        this.finish();
     }
 }

@@ -59,6 +59,21 @@
         app:layout_constraintTop_toBottomOf="@+id/username"
         android:inputType="textPassword" />
 
+    <EditText
+        android:id="@+id/pseudo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:autofillHints="@string/prompt_pseudo"
+        android:hint="@string/prompt_pseudo"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        android:inputType="textPersonName" />
+
     <Button
         android:id="@+id/login"
         android:layout_width="wrap_content"
@@ -72,7 +87,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/pseudo"
         app:layout_constraintVertical_bias="0.2" />
 
     <TextView

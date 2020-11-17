@@ -15,4 +15,6 @@
     <string name="news">News</string>
     <string name="ok">Ok</string>
     <string name="login">LogIn</string>
+    <string name="prompt_pseudo">Votre Pseudo</string>
+    <string name="faut_logger">Faut logger</string>
 </resources>

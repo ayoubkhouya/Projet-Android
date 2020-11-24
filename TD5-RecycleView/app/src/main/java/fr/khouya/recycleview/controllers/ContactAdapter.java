@@ -10,8 +10,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.List;
 
+import fr.khouya.recycleview.ContactActivity;
 import fr.khouya.recycleview.R;
 import fr.khouya.recycleview.modeles.Contact;
 
@@ -49,6 +52,13 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
 
         TextView prenom = holder.prenomTextView;
         prenom.setText(contact.getPrenom());
+
+        ImageView imageView = holder.photoImageView;
+        Glide.with(holder.itemView)
+                .load(contact.getImageUrl())
+                .centerCrop()
+                .placeholder(R.drawable.ic_launcher_background)
+                .into(imageView);
     }
 
     @Override

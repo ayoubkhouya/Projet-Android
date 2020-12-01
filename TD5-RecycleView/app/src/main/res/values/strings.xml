@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">TD5 RecycleView</string>
-    <string name="default_nom">KHOUYA</string>
-    <string name="default_prenom">AYOUB</string>
-    <string name="img_description">Photo Profile</string>
-    <string name="list_des_contacts">List des Contacts</string>
-</resources>

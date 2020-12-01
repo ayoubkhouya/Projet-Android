@@ -2,6 +2,7 @@ package fr.khouya.lesappelsreseau.interfaces;
 
 import java.util.List;
 
+import fr.khouya.lesappelsreseau.models.Commit;
 import fr.khouya.lesappelsreseau.models.Repos;
 import fr.khouya.lesappelsreseau.models.ReposSearches;
 import retrofit2.Call;
@@ -21,5 +22,8 @@ public interface GithubService {
 
     @GET("/search/repositories")
     Call<ReposSearches> searchReposQuery(@Query("q") String query);
+
+    @GET("/repos/{user}/{repos}/commits")
+    Call<List<Commit>> getCommits(@Path("user") String user, @Path("repos") String repos);
 
 }

@@ -7,6 +7,7 @@ public class Repos {
     private String name;
     private String full_name;
     private String html_url;
+    private String commits_url;
     private int open_issues;
     private String language;
     private UserRepos owner;
@@ -66,5 +67,13 @@ public class Repos {
 
     public void setOwner(UserRepos owner) {
         this.owner = owner;
+    }
+
+    public String getCommits_url() {
+        return commits_url;
+    }
+
+    public void setCommits_url(String commits_url) {
+        this.commits_url = commits_url;
     }
 }

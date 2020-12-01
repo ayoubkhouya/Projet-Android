@@ -2,13 +2,14 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_marginBottom="5dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"
-        android:padding="10dp"
+        android:layout_marginBottom="20dp"
         app:cardCornerRadius="15dp"
         >
 
@@ -61,7 +62,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/default_nom"
-                        android:textSize="23sp"
+                        android:textSize="20sp"
+                        android:lines="1"
                         android:textColor="@color/color_owner_name"
                         android:fontFamily="@font/ocean_bold"
                         android:layout_marginEnd="10dp"
@@ -77,6 +79,7 @@
                         android:layout_marginEnd="10dp"
                         android:layout_marginTop="5dp"
                         android:textSize="17sp"
+                        android:lines="1"
                         />
                 </GridLayout>
 
@@ -177,7 +180,7 @@
                             android:fontFamily="@font/axilia"
                             android:layout_marginEnd="10dp"
                             android:layout_marginTop="5dp"
-                            android:textSize="17sp"
+                            android:textSize="15sp"
                             android:textAlignment="center"
                             />
                     </GridLayout>
@@ -216,7 +219,8 @@
                             android:fontFamily="@font/axilia"
                             android:layout_marginEnd="10dp"
                             android:layout_marginTop="5dp"
-                            android:textSize="17sp"
+                            android:textSize="15sp"
+                            android:lines="1"
                             android:textAlignment="center"
                             />
                     </GridLayout>

@@ -1,0 +1,4 @@
+fr/khouya/priseenmain/MainActivity.java
+ fr.khouya.priseenmain.MainActivity
+fr/khouya/priseenmain/BuildConfig.java
+ fr.khouya.priseenmain.BuildConfig

@@ -11,6 +11,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
+    /**
+     * @Author: Ayoub KHOUYA
+     * @Class: Ing 3
+     * @GroupeTP/TD: TP2
+     * */
 
     // les elements de vue
     private EditText username_input;

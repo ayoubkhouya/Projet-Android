@@ -8,6 +8,11 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class DetailsActivity extends AppCompatActivity {
+    /**
+     * @Author: Ayoub KHOUYA
+     * @Class: Ing 3
+     * @GroupeTP/TD: TP2
+     * */
 
     private Button btn_ok;
     private TextView pseudo_user;

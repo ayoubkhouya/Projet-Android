@@ -9,6 +9,11 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class NewsActivity extends AppCompatActivity {
+    /**
+     * @Author: Ayoub KHOUYA
+     * @Class: Ing 3
+     * @GroupeTP/TD: TP2
+     * */
 
     private Button btn_details;
     private Button btn_logout;

@@ -3,6 +3,11 @@ package fr.khouya.lesactivites;
 import android.app.Application;
 
 public class GlobalApplication extends Application {
+    /**
+     * @Author: Ayoub KHOUYA
+     * @Class: Ing 3
+     * @GroupeTP/TD: TP2
+     * */
 
     // Pour tester le login
     private String user_name_correct = "ayoub@khouya.fr";

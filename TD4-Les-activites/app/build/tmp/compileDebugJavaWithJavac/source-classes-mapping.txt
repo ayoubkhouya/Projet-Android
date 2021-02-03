@@ -1,0 +1,10 @@
+fr/khouya/lesactivites/GlobalApplication.java
+ fr.khouya.lesactivites.GlobalApplication
+fr/khouya/lesactivites/DetailsActivity.java
+ fr.khouya.lesactivites.DetailsActivity
+fr/khouya/lesactivites/NewsActivity.java
+ fr.khouya.lesactivites.NewsActivity
+fr/khouya/lesactivites/LoginActivity.java
+ fr.khouya.lesactivites.LoginActivity
+fr/khouya/lesactivites/BuildConfig.java
+ fr.khouya.lesactivites.BuildConfig

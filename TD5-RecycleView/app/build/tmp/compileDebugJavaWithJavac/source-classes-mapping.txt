@@ -1,0 +1,11 @@
+fr/khouya/recycleview/MainActivity.java
+ fr.khouya.recycleview.MainActivity
+fr/khouya/recycleview/ContactActivity.java
+ fr.khouya.recycleview.ContactActivity
+fr/khouya/recycleview/controllers/ContactAdapter.java
+ fr.khouya.recycleview.controllers.ContactAdapter
+ fr.khouya.recycleview.controllers.ContactAdapter$ViewHolder
+fr/khouya/recycleview/BuildConfig.java
+ fr.khouya.recycleview.BuildConfig
+fr/khouya/recycleview/modeles/Contact.java
+ fr.khouya.recycleview.modeles.Contact

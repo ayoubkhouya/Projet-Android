@@ -6,6 +6,11 @@ import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
+    /**
+     * @Author: Ayoub KHOUYA
+     * @Class: Ing 3
+     * @GroupeTP/TD: TP2
+     * */
 
     public static final String TAG_METHOD = "Method : ";
     public static final String TAG_FACTORIAL = "Factoriel : ";

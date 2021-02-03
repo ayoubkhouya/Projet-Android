@@ -1,4 +1,0 @@
-fr/khouya/interfaceutilisateur/MainActivity.java
- fr.khouya.interfaceutilisateur.MainActivity
-fr/khouya/interfaceutilisateur/BuildConfig.java
- fr.khouya.interfaceutilisateur.BuildConfig

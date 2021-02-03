@@ -7,6 +7,11 @@ import android.os.Bundle;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+    /**
+     * @Author: Ayoub KHOUYA
+     * @Class: Ing 3
+     * @GroupeTP/TD: TP2
+     * */
 
     Button btn_exo_one;
     Button btn_exo_two;
